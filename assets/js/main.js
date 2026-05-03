@@ -131,6 +131,10 @@ if (selectedTheme) {
   themeButton.classList[selectedIcon === "bx bx-moon" ? "add" : "remove"](
     iconTheme
   );
+} else {
+  // Make white theme the default
+  document.body.classList.add(lightTheme);
+  themeButton.classList.add(iconTheme);
 }
 
 // Activate / deactivate the theme manually with the button
