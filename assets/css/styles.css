@@ -669,6 +669,9 @@ body.light-theme {
 .work__img {
   border-radius: 1rem;
   margin-bottom: 0.75rem;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  object-position: 50% -25px;
 }
 
 .work__title {
